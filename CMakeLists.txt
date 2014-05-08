@@ -20,6 +20,6 @@ SET(CMAKE_VERBOSE_MAKEFILE true)
 project(testsoth)
 
 ADD_REQUIRED_DEPENDENCY("soth")
-ADD_EXECUTABLE(testsoth HQPtest.cpp HQPtest.h)
+ADD_EXECUTABLE(testsoth HQPtest.cpp HQPtest.h main.cpp)
 PKG_CONFIG_USE_DEPENDENCY(testsoth soth)
 

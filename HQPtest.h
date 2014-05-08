@@ -46,6 +46,7 @@ private:
 
 public:
 	//std::vector priorities contains structs of the "Priority" type
+  // A Priority corresponds to a layer of the HQP (aka a minimization problem).
 	struct Priority
 	{
 	public:
